@@ -64,6 +64,7 @@ In questo caso l’etichetta presente nella prima riga assume il valore 0 tutte 
 |      STA LOAD | 6                | 300             |
 |      BRA LOAD | 7                | 600             |
 | ONE  DAT 1    | 8                | 1               |
+
 In questo caso ci sono due etichette (LOAD e ONE) che assumono valore 0 e 8 rispettivamente. Questo corrisponde alla cella di memoria dove la versione convertita in codice macchina dell’istruzione assembly presente nella stessa riga è stata salvata. Si noti inoltre come le etichette possano essere utilizzate prima di venire deﬁnite. Se una riga contiene una doppia barra (//) tutto il resto della riga deve venire ignorato e considerato come commento. L’assembly è inoltre case-insensitive e possono esserci uno o più spazi tra etichetta e istruzione e etichetta e argomento. 
 Le seguenti istruzioni sono quindi tutte equivalenti: 
 
